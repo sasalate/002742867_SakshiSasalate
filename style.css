@@ -67,8 +67,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: #222222;
-    
-   
     padding: 0 100px 200px 100px;
   }
   
@@ -128,7 +126,7 @@
     margin-bottom: 30px;
   }
   
-  .content2 button{
+   button{
     margin-top: 30px;
     border:1px solid rgb(249, 115, 184) ;
     padding: 10px 20px;
@@ -139,7 +137,7 @@
 
   }
 
-  .content2 button:hover{
+  button:hover{
     background: rgb(249, 115, 184);
     cursor : pointer ;
     color: #fff ;
@@ -159,10 +157,12 @@
     font-weight: bold !important;
   }
   
-  
+/* Menu Page */
+.menuBody{
+  overflow: auto;
+}
   .menu table{
     width: 100%;
-
   }
   
   
@@ -173,23 +173,93 @@
   
   
   .menu {
+    grid-template-columns: unset !important;
+  }
+  
+  .menu table tr td img{
+     width: 100%;
+     object-fit: cover; 
+     height: auto;
     
   }
   
+  .menu table td{
+    display: grid;
+    place-items: center;
+  }
+
+  .card{
+    display: grid;
+    place-items: center;
+    height: 45vh;
+    overflow: hidden;
+    grid-template-rows: 2fr 1fr;
+    padding: 5%;
+    grid-gap: 15px;
+}
+.card img{
+    height: 50%;
+    object-fit: contain;
+    
+}
+.card .cardImg{
+
+  width: 50%;
+  overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+.card .cardContent{
+    display: grid;
+}
   
+
+.contain{
+  position: center;
+  background :linear-gradient(rgb(254, 208, 233), rgb(203, 231, 253));
+  max-width: 1000px;
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 5px;
+  margin: 0 auto;
   
+}
   
+.contain .title{
+  font-size: 30px;
+  font-family: 'Great Vibes',sans-serif;
+  text-align: center;
+  padding-bottom: 30px;
+}
   
+.contain form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+} 
+
+form .user-details .input-box{
+ margin-bottom: 15px;
+  width: calc(100%/2 -20px);
+}
+.user-details .input-box .details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
   
+.user-details .input-box .input{
+   height: 45px;
+   width: 100%;
+   outline: none;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   padding-left: 15px;
+   font-size: 16px;
   
-  
-  
-  
-  
-  
-  
-  
-  
+
+}
   
   
   
