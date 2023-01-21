@@ -222,7 +222,7 @@
   padding: 25px 30px;
   border-radius: 5px;
   margin: 0 auto;
-  
+  margin-left: 250px;
 }
   
 .contain .title{
@@ -273,17 +273,91 @@ form .user-details .input-box{
   
 
 
+.contact-us {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
 
+.contact-us .contactinfo{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
 
+.contact-us .contactinfo .box {
+ position: relative;
+ padding: 20px 0;
+ display: flex;
+
+}
+
+.contact-us .contactinfo .box .icon{
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.contact-us .contactinfo .box .text {
+
+  display: flex;
+  margin-left:20px;
+  font-size:16px;
+  font-family: 'Raleway',sans-serif;
+  flex-direction: column;
+  font-weight: 300;
+}
   
   
+.contactform{
+  width: 398PX;
+  padding: 40px;
+  background: #fff;
+  font-family: 'Raleway',sans-serif;
+  MARGIN-LEFT: 281PX;
+  HEIGHT: 319PX;
+  MARGIN-TOP: -123PX
+}
   
+.contactform h2{
+  font-family: 'Great Vibes',sans-serif;
+  font-size: 28px;
+}  
+
+.contactform .inputBox{
+  position: relative;
+  width: 100%;
+  margin-top:10px;
+}
+
+.contactform .input-box input{ 
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+
+} 
+
+.contact-us .contactinfo .social{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+  padding-bottom: 0px;
+  border-top: 1px solid #eee;
+  margin-left: 287px;
+  margin-top: -15px;
+}
   
-  
-  
-  
-  
-  
+
   
   
   
